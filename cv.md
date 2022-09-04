@@ -50,3 +50,13 @@ alert( result );
  1. HTML & CSS : [Travel](https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/travel/)
  1. JavaScript: [Momentum](https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/momentum/), [Eldritch](https://mdviktor.github.io/eldritch-codejam/data/)
 ---
+## Education:
+- **Donetsk National Univercity of Ukraine**
+    - _Faculty of Economics, the Management of Organizations, master_
+- **Rolling Scopes School**
+    - _Java Script/Front-end development (in process..)_
+---
+## English:
+- B1 
+---
+---

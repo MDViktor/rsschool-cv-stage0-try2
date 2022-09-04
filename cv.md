@@ -1,4 +1,6 @@
-# Viktor Morozov ![avatar](https://media.discordapp.net/attachments/591539964005580812/1016071165791457381/foto.png)
+#  Viktor Morozov
+||||||||||||||||||||![avatar](https://media.discordapp.net/attachments/591539964005580812/1016071165791457381/foto.png)|
+|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
 ---
 ## Contacts:
 ---
@@ -16,9 +18,26 @@
     Today I am a printing press operator in a printing house, which gives me a good help for typesetting.
 ---
 ## Skills:
+---
 - **HTML**
 - **CSS**
 - **JavaScript (basic)**
 - **Git**
 - **Python**
+---
+## Code example:
+---
+``` 
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+---
+## Experience:
+---
+ 1. Git & Markdown : [CV](https://github.com/MDViktor/rsschool-cv/blob/gh-pages/cv.md)
+ 1. 
 ---

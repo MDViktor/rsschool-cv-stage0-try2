@@ -32,6 +32,7 @@
 - **JavaScript (basic)**
 - **Git**
 - **Python**
+
 ---
 ## Code example:
 
@@ -56,6 +57,7 @@ alert( result );
     - _Faculty of Economics, the Management of Organizations, master_
 - **Rolling Scopes School**
     - _Java Script/Front-end development (in process..)_
+    
 ---
 ## English:
 - B1 

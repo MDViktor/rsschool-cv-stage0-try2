@@ -10,23 +10,20 @@
 
 html {
     scroll-behavior: smooth; 
-  }
+}
 
-.image {
+/* .image {
     position: relative;
     top: -10%;
     width: 200px;
     height: 200px;
     border: 1px solid rgb(69, 23, 236);
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
-}
+    
+} */
 
 body {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-family: 'OpenSans';
     font-size: 20px;
@@ -38,20 +35,29 @@ body {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 .container {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+
+    font-size: 32px;
 }
 
 .nav {
+    display: flex;
+    position: relative;
     background-color: rgb(167, 119, 212);
 }
 
 .nav-list {
     display: flex;
-    justify-content: flex-start;
+
     margin-right: 2px;
     font: normal italic bold 16px OpenSans;
     list-style: none; 
@@ -82,8 +88,4 @@ body {
     margin-right: 20px;
     font: normal italic bold 16px OpenSans;
     list-style: none; 
-}
-
-.main_header {
-    font-size: 32px;
 }

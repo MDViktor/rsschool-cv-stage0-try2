@@ -16,12 +16,15 @@ html {
 }
 body {
     width: 100%;
-
+    
     font-family: 'OpenSans';
     font-size: 20px;
     min-height: 100vh;
     margin: 0; 
     padding: 0;
+}
+a{
+    text-decoration: none;
 }
 
 
@@ -100,12 +103,19 @@ body {
 
 h2{
     padding-left: 40px;
+    background: linear-gradient(to right, rgb(167, 119, 212), white)
 }
 
 .contacts{
     margin-top: 40px;
 }
 
+.comp_container{
+
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+}
 .footer {
     display: flex;
     width: 100%;

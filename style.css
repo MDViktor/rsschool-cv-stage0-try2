@@ -25,6 +25,16 @@ body {
 }
 a{
     text-decoration: none;
+    font-weight: 700;
+}
+
+.description{
+    /* display: none; */
+    position:absolute;
+    border:1px solid #000;
+    overflow: hidden;
+    width:400px;
+    height:400px;
 }
 
 
@@ -115,6 +125,22 @@ h2{
     margin: 0 auto;
     align-items: center;
     text-align: left;
+}
+.sc{
+    display: flex;
+    flex-direction: row;
+}
+#skills{
+    width: 50%;
+}
+#code{
+    width: 50%;
+}
+.ex_container{
+    padding-left: 20px;
+}
+#english>p{
+    padding-left: 20px;
 }
 .footer {
     display: flex;

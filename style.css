@@ -8,84 +8,111 @@
     font-weight: 700;
 }
 
+* {
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth; 
 }
-
-/* .image {
-    position: relative;
-    top: -10%;
-    width: 200px;
-    height: 200px;
-    border: 1px solid rgb(69, 23, 236);
-    padding: 10px;
-    
-} */
-
 body {
-    display: flex;
-    align-items: center;
+    width: 100%;
+
     font-family: 'OpenSans';
     font-size: 20px;
-    border: 1px solid rgb(69, 23, 236);
     min-height: 100vh;
     margin: 0; 
     padding: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-.container {
-    /* max-width: 1440px; */
-    margin: 0 auto;
-}
+
 .header {
     display: flex;
     justify-content:space-between;
     width: 100%;
-
     font-size: 32px;
+}
+.main {
+    width: 100%;
+    padding: 20px;
 }
 
 .nav {
+    width: 100%;
     display: flex;
+    padding: 10px 60px;
     position: relative;
     background-color: rgb(167, 119, 212);
 }
 
 .nav-list {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-inline-start: 0px;
+   
+    width: 100%;
     margin-right: 2px;
-    font: normal italic bold 16px OpenSans;
+    font: normal italic bold 20px OpenSans;
     list-style: none; 
 }
 
-.nav-link {
-    background-color: rgb(167, 119, 212);
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px rgb(81, 17, 133);
-    padding: 0 20px;
-    line-height: 50px;
+.nav-link{
     text-decoration: none;
+    text-shadow: 0px 0px 12px rgb(255, 255, 255);
 }
+
 .nav-link:hover {
     transition: .3s;
     color: blue;
 }
+.top{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.author_info {
+    width:calc(100% - 220px);
+}
+.foto_container {
+    height: 300px;
+    margin: 20px;
+    background-color: rgba(167, 119, 212, 0.5);
+    box-shadow: 0px 0px 60px rgba(167, 119, 212);
+    border-radius: 42px;
+}
+.image{
+    border-radius: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 280px;
+}
+.name {
+    text-align: center;
+    font: italic 700 1.8em 'OpenSans';
+    text-shadow: 0px 0px 20px rgb(167, 119, 212);
+    background: radial-gradient(rgb(167, 119, 212) 20%,rgb(255, 255, 255) 130%);
+    border-radius: 30px;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 120px rgb(167, 119, 212);
+}
 
-.h1 {
-    position: relative;
-    left: 500px;
+h2{
+    padding-left: 40px;
+}
+
+.contacts{
+    margin-top: 40px;
 }
 
 .footer {
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-right: 20px;
     font: normal italic bold 16px OpenSans;
     list-style: none; 
-}
+    background-color: rgb(167, 119, 212);
+} 

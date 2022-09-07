@@ -26,14 +26,6 @@ a{
     text-decoration: none;
     font-weight: 700;
 }
-.description{
-    /* display: none; */
-    position:absolute;
-    border:1px solid #000;
-    overflow: hidden;
-    width:400px;
-    height:400px;
-}
 .header {
     display: flex;
     justify-content:space-between;

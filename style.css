@@ -11,15 +11,14 @@
     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 body {
     width: 100%;
-    
     font-family: 'OpenSans';
     font-size: 20px;
     min-height: 100vh;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 a{
@@ -49,11 +48,10 @@ a{
     justify-content: space-between;
     gap: 20px;
     padding-inline-start: 0px;
-   
     width: 100%;
     margin-right: 2px;
     font: normal italic bold 20px OpenSans;
-    list-style: none; 
+    list-style: none;
 }
 .nav-link{
     text-decoration: none;
@@ -130,6 +128,6 @@ h2{
     align-items: center;
     margin-right: 20px;
     font: normal italic bold 16px OpenSans;
-    list-style: none; 
+    list-style: none;
     background-color: rgb(167, 119, 212);
-} 
+}
